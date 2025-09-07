@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    background-color: #232f3e;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo h2{   
+    color: aliceblue;
+    margin-left: 25px;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    display: flex;
+    margin-right:50px ;
+}
+nav ul li{
+    margin: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+nav ul li a:hover{
+    text-decoration:underline ;
+}
+
+.Hero{
+    text-align: center;
+    justify-content: center;
+    padding:80px 20px;
+}
+.Hero button{
+    display: inline-block;
+    background: #ff9900;
+    padding: 10px 20px;
+    border: #e68a00;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.Hero button:hover{
+    background:#e68a00;
+}
+
+.block{
+    display: flex;
+    justify-content: space-around;
+    background: #f4f4f4;
+    padding: 40px 20px;
+}
+.block1{
+    background: #fff;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 30%;
+    padding: 20px;
+}
+.block1:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+footer{
+    background: #232f3e;
+    color: #fff;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
